@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.container {
+    background-color: #fdeecd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px black solid;
+}
+
+.container img{
+    max-width: 12em;
+    width: 12em;
+    height: 12em;
+    border-radius: 5%;
+    
+}
